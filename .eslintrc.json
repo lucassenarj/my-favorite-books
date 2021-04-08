@@ -29,7 +29,9 @@
     "react-native/no-color-literals": "off",
     "react-native/sort-styles": "off",
     "global-require": "off",
-    "react-native/no-raw-text": "off"
+    "react-native/no-raw-text": "off",
+    "prettier/prettier": "error",
+    "quotes": [2, "double", { "allowTemplateLiterals": true }]
   },
   "settings": {
     "import/resolver": {
